@@ -3,7 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <title>True Parallax Scrolling Website Design Tutorial</title>
+    <style>
+        body{
+            overflow-x: hidden;
+        }
 
+        .paralax{
+            position: absolute;
+            height: 100%;
+
+        }
+
+        .paralax-item{
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+        }
+
+        .p-item1{
+            background: url("m_1.png") center/cover no-repeat;
+        }
+
+        .p-item3{
+            background: url("m_3.png")bottom/100% no-repeat;
+            background-size: cover;
+            background-position: center;
+            z-index: 2;
+        }
+
+
+
+    </style>
 </head>
 <body>
 
